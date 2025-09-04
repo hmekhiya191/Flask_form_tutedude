@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submit Data</title>
+</head>
+<body>
+    
+    <form method="POST">
+        <h2>Submit Form</h2>
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter name" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter email" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+<style>
+    body{
+        background-color: black;
+        text-align: center;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2{
+        color: yellow;
+        font-size: 3rem;
+    }
+    form {
+        max-width: 800px;
+        color: yellow;
+        font-size: 2rem;
+        border: 2px solid yellow;
+        padding: 20px 150px;
+        margin-top: 10%;
+    }
+        input{
+        background-color: transparent;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        size: 1rem;
+        border: 1px solid yellow;
+        padding: 0.8rem;
+        color: white;
+    }
+    button{
+        background-color: transparent;
+        color: yellow;
+        border: 1px solid yellow;
+        width: 120px;
+        height: 50px;
+    }
+    button:hover{
+        background-color: rgba(255, 255, 0, 0.716);
+        color: black;
+    }
+</style>
+</html>
